@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+    <meta charset="utf-8">
+    <title>Principal</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainershutterstock_17150008").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorshutterstock_17150008"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-1 { color: #3A3B3A; background: #FFFFFF; padding-right: 10px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainershutterstock_17150008 {
+    position: relative;
+        width: 222px;
+    height: 150px;
+        }
+
+.art-slidecontainershutterstock_17150008 .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainershutterstock_17150008 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainershutterstock_17150008 .active, .art-slidecontainershutterstock_17150008 .next, .art-slidecontainershutterstock_17150008 .prev {
+    display: block;
+}
+
+.art-slidecontainershutterstock_17150008 .active {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_17150008 .next, .art-slidecontainershutterstock_17150008 .prev {
+    width: 100%;
+}
+
+.art-slidecontainershutterstock_17150008 .next.forward, .art-slidecontainershutterstock_17150008 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_17150008 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainershutterstock_17150008 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideshutterstock_171500080 {
+    background-image:  url('images/slideshutterstock_171500080.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideshutterstock_171500081 {
+    background-image:  url('images/slideshutterstock_171500081.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideshutterstock_171500082 {
+    background-image:  url('images/slideshutterstock_171500082.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigatorshutterstock_17150008 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 126px;
+  left: 71.17%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorshutterstock_17150008
+{
+background: #9A97A1;background: linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;background: -webkit-linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;background: linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(193, 191, 197, 0.6) 0, rgba(125, 121, 134, 0.6) 84%, rgba(113, 109, 120, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorshutterstock_17150008 > a
+{
+background: #55525B;background: #55525B;background: #55525B;background: #55525B;background: #55525B;background: #55525B;background: #55525B;-svg-background: #55525B;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_17150008 > a.active
+{
+background: #F66A6D;background: #F66A6D;background: #F66A6D;background: #F66A6D;background: #F66A6D;background: #F66A6D;background: #F66A6D;-svg-background: #F66A6D;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_17150008 > a:hover
+{
+background: #727472;background: #727472;background: #727472;background: #727472;background: #727472;background: #727472;background: #727472;-svg-background: #727472;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+    <div class="art-sheet clearfix">
+<nav class="art-nav">
+    <ul class="art-hmenu"><li><a href="principal.html" class="active">Principal</a></li></ul> 
+    </nav>
+<header class="art-header">
+
+
+    <div class="art-shapes">
+
+            </div>
+
+
+
+
+                <div id="art-flash-area">
+                    <div id="art-flash-container">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1000" height="250" id="art-flash-object">
+                        <param name="movie" value="images/flash.swf">
+                        <param name="quality" value="high">
+                    	<param name="scale" value="exactfit">
+                    	<param name="wmode" value="transparent">
+                    	<param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                        <param name="swfliveconnect" value="true">
+                        <!--[if !IE]>-->
+                        <object type="application/x-shockwave-flash" data="images/flash.swf" width="1000" height="250">
+                            <param name="quality" value="high">
+                    	    <param name="scale" value="exactfit">
+                            <param name="wmode" value="transparent">
+                                                    	    <param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                            <param name="swfliveconnect" value="true">
+                        <!--<![endif]-->
+                          	<div class="art-flash-alt"><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a></div>
+                        <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
+                    </object>
+                    </div>
+                    </div>
+                    
+</header>
+<div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 40%" >
+        <p></p><div id="shutterstock_17150008" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px;  " class="art-collage">
+<div class="art-slider art-slidecontainershutterstock_17150008" data-width="222" data-height="150">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideshutterstock_171500080">
+
+</div>
+<div class="art-slide-item art-slideshutterstock_171500081">
+
+</div>
+<div class="art-slide-item art-slideshutterstock_171500082">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorshutterstock_17150008" data-left="71.17">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+        
+         
+        <p>
+        </p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 60%" >
+        <p style="text-align: justify;">Posibles usos<br>
+         &gt; <span style="font-weight: bold;">En supermercados</span> : Facilita tareas de invetario , recepción de 
+         mercancía de proveedores , ajustes de stock , verificación de precio y/o
+         productos.<br>
+         &gt; <span style="font-weight: bold;">En empresas distribuidoras</span> : Permite la facturación , cobro y toma 
+         de pedidos a clientes en la calle, ejemplo (un chofer de un camión con 
+         mercadería)<br>
+         &gt; <span style="font-weight: bold;">Lugares con poca internet</span> : sistema puede trabajar offline(zonas donde hay poca cobertura de Internet)<br>
+         &gt; <span style="font-weight: bold;">Punto de venta móvil</span><br>
+         &gt; Tu empresa en tu bolsillo : Es parcialmente adminitrable en modo offline .<br>
+         &gt; Orientado para todo tipo de empresas que tenga una operetiva dinámica.<br>
+         &gt; Si tienes un sistema propio o hecho la media hacemos una 
+         integración para que sigas trabajando sobre el. Es decir para usarnos no
+         tienes que dejar tu sistema.</p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 40%" >
+        <p><img alt="" width="216" height="144" src="images/shutterstock_19883491.jpg" style="float: left;" class=""><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 60%" >
+        <p style="text-align: center;"><span style="text-align: justify;">**** No dude en contactarse *****</span></p><p><span style="text-align: justify; font-weight: bold; color: rgb(0, 0, 0); font-size: 18px;">WhatsApp</span></p><p><span style="color: rgb(7, 192, 7); font-weight: bold; font-size: 18px;">(829) 638-5003</span><span style="text-align: justify;"><br></span></p><p style="text-align: justify;"></p><div class="gb_ab gb_bb" style="font-family: 'Segoe UI', Roboto, arial, sans-serif; font-weight: bold; margin-top: -4px; margin-bottom: 1px; text-overflow: ellipsis; overflow-x: hidden; overflow-y: hidden; color: rgb(0, 0, 0); text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);"><span style="font-size: 18px;">Correo</span></div><div class="gb_cb" style="font-family: 'Segoe UI', Roboto, arial, sans-serif; color: rgb(102, 102, 102); text-overflow: ellipsis; overflow-x: hidden; overflow-y: hidden; text-align: start; white-space: nowrap; background-color: rgb(255, 255, 255);"><span style="color: rgb(211, 13, 17); font-weight: bold; font-size: 18px;">softlight.oneteam@gmail.com</span></div><br><p></p><p>
+        </p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 60%" >
+        <h3><br></h3>
+    </div><div class="art-layout-cell layout-item-1" style="width: 40%" >
+        <h3><br></h3>
+    </div>
+    </div>
+</div>
+</div>
+
+
+</article></div>
+                        <div class="art-layout-cell art-sidebar1"><div class="art-block clearfix">
+        <div class="art-blockcontent"><p style="text-align: center;"><span style="font-weight: bold; font-size: 18px;">Régimen de Facturación</span></p><p><br></p><p><br></p><p><br></p><p>Costo por Unidad Móvil&nbsp;<span style="font-weight: bold;"><span style="color: rgb(158, 10, 13);">$20&nbsp;USD</span></span><br></p><p><br></p><p>Consola web</p><p><span style="font-weight: bold;"><span style="color: rgb(158, 10, 13);">$10 USD</span></span><br><br></p><p>Hosting<br><span style="font-weight: bold;"><span style="color: rgb(158, 10, 13);">$5 USD&nbsp;</span></span><br><br></p><p><span style="font-weight: bold;"><br><br></span></p><p><br></p></div>
+</div></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+<div style="position:relative;display:inline-block;padding-left:42px;padding-right:42px"><a title="RSS" class="art-rss-tag-icon" style="position: absolute; bottom: -10px; left: -6px; line-height: 32px;" href="#"></a><p>Semper placerat massa dictum ultrices eget mollis enim suscipit nisi non.</p></div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+  </div>
+</footer>
+
+</div>
+
+
+</body></html>
